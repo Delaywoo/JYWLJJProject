@@ -19,15 +19,17 @@ public class PlayerMove : MonoBehaviour
     void Update()
     {
         
-        float h = Input.GetAxis("Vertical");
-        float v = Input.GetAxis("Horizontal");
-        
-  
-        Vector3 direction = new Vector3 (-v, 0, -h);
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+
+
+        Vector3 direction = Vector3.left * h + Vector3.forward * -v;
         direction.Normalize();
 
         transform.position += direction * moveSpeed * Time.deltaTime;
 
+        //카메라가 바라보는 방향을 앞방향으로 하고 싶다.
+        direction = Camera.main.transform.TransformDirection(direction);
 
         
     }
