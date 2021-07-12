@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 
     public Text[] gameText = new Text[2]; //1. 문항 번호 2. 퀴즈 내용 
 
-    private int answer;
+    int answer;
 
     public int number = 1;
 
@@ -40,6 +40,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         OpenQuizScreen(false);
+        
     }
 
     // Update is called once per frame
@@ -81,9 +82,12 @@ public class GameManager : MonoBehaviour
         //1. 정답 확인
         GradeQuiz();
 
+        
+        
+
         if (number < 3)
         {
-            
+            inputanswer.text = "";
 
             //1. 문항 번호 설정
             number++;
@@ -93,13 +97,19 @@ public class GameManager : MonoBehaviour
             //2. 문제 내용 설정
             RandomQuiz();
 
-            //3. 인풋필드 초기화: inspector 창에서 설정함. inputfield -> text : null로 설정
-
+            //3. 이전문제 답 확인한 후 인풋필드 초기화
+            
 
         }
 
+        
+
+        
+
 
     }
+
+    
 
     public void RandomQuiz()
     {
@@ -141,6 +151,7 @@ public class GameManager : MonoBehaviour
             YesOrNo[(number - 1) * 2].SetActive(true);
             Faces[0].SetActive(true);
             Faces[1].SetActive(false);
+            
         }
         else
         {
@@ -149,6 +160,8 @@ public class GameManager : MonoBehaviour
             Faces[0].SetActive(false);
             Faces[1].SetActive(true);
         }
+
+        print(answer +"," + text);
 
 
     }

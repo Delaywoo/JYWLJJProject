@@ -27,6 +27,8 @@ public class PlayerMove : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
+
+
         Vector3 direction = Vector3.right * h + Vector3.forward * v;
         
         //카메라가 바라보는 방향을 앞방향으로 하고 싶다.
