@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-//kagent.destination = target.transform.position;
 
 public class EnemyFSM : MonoBehaviour
 {
@@ -13,14 +12,21 @@ public class EnemyFSM : MonoBehaviour
     NavMeshAgent smith;
     float rotRate = 0;
     bool isBooked = false;
+    Transform player;
+
+    public Transform GetTargetTransform()
+    {
+        return player;
+    }
+
 
     //NavMeshAgent agent;
     public enum State
     {
         Idle,
         Move,
-        Kill,
         KillToMove,
+        Kill,
         Die,
     }
 
@@ -29,10 +35,14 @@ public class EnemyFSM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //agent = GetComponent<NavMeshAgent>();
-
         state = State.Idle;
-        target = GameObject.Find("Player");
+        player = GameObject.Find("Player").transform;
+
+        cc = transform.GetComponent<CharacterController>();
+
+        //EnemyAnimation = GetComponent<Animator>();
+
+        //EnemyAnimation.SetBool("isDie", false);
 
         //NavmeshAgent컴포넌트를 가져옴
         smith = GetComponent<NavMeshAgent>();
@@ -53,29 +63,16 @@ public class EnemyFSM : MonoBehaviour
         {
             UpdateMove2();
         }
-        else if (state == State.Kill)
-        {
-            Kill();
-        }
         //else if (state == State.Kill)
         //{
         //    UpdateKill();
         //}
+        else if (state == State.Die)
+        {
+            Die();
+        }
 
-        ////시간이 감소됨에 따라 Enemy의 속도가 빨라지게 하고 싶다.
-        //Countdown setTime = GameObject.Find("Main Camera").GetComponent<Countdown>();
-        //setTime.setTime = 10.0f;
-        //if (setTime < )
-        //{
-
-        //}
-
-        //if(Time.time > nextTime)
-        //{
-        //    nextTime = Time.time + TimeLeft;
-        //    addSpeed();
-        //}
-
+        //일정 시간 감소에 따른 Enemy상태 변화
         if (currentTime > delayTime)
         {
             addSpeed();
@@ -89,22 +86,28 @@ public class EnemyFSM : MonoBehaviour
 
     }
 
+    public void addSpeed()
+    {
+        speed = speed + 2;
+        //print("속도 증가");
+
+    }
+
     Animator EnemyAnimation;
-    public GameObject target;
     public float findDistance;
     private void UpdateIdle()
     {
-        if (target != null)
+        if (player != null)
         {
             //float distance = Vector3.Distance(transform.position, target.transform.position);
-            float distance = (target.transform.position - transform.position).magnitude;
+            float distance = (player.position - transform.position).magnitude;
             //float distance = (target.transform.position - transform.position).sqrMagnitude;
 
-            if (distance < findDistance)
+            if (findDistance >= distance)
             {
-                state = State.Move;
+                //이동 상태로 전환
+                SetMoveState();
 
-                //agent.destination = target.transform.position;
             }
         }
         else
@@ -112,30 +115,46 @@ public class EnemyFSM : MonoBehaviour
             return;
         }
 
+    }
+
+    void SetMoveState()
+    {
+        //이동 상태로 전환
+        state = State.Move;
+
+        //이동 애니메이션 실행
+        //EnemyAnimation.SetTrigger("IdleToMove");
+
+        //현재 회전 상태를 startRot로 정함
+        startRotation = transform.rotation;
+        //회전 보간을 위한 rotRate도 0으로 초기화 한다.
+        rotRate = 0;
+
+        isBooked = false;
 
     }
 
     public float speed = 1;
     Quaternion startRotation;
     CharacterController cc;
-
     private void UpdateMove()
     {
 
-        if (target != null)
+        if (player != null)
         {
-            Vector3 dir = target.transform.position - transform.position;
+            Vector3 dir = player.position - transform.position;
             float distance = dir.magnitude;
 
-            if (distance <= findDistance)
-            {
-                currentTime = 0;
-                //CancelInvoke();
+            //if (distance <= findDistance)
+            //{
 
-                //EnemyAnimation.SetTrigger("MoveToKill");
+            //    currentTime = 0;
+            //    //CancelInvoke();
 
-                return;
-            }
+            //    //EnemyAnimation.SetTrigger("MoveToKill");
+
+            //    return;
+            //}
             dir.Normalize();
             cc.Move(dir * speed * Time.deltaTime);
             //transform.position += dir * speed * Time.deltaTime;
@@ -167,93 +186,86 @@ public class EnemyFSM : MonoBehaviour
 
     void UpdateMove2()
     {
-        if (target != null)
+        if (player != null)
         {
             smith.enabled = true;
             //플레이어의 위치를 네브메쉬의 목적지로 설정한다.
-            smith.SetDestination(target.transform.position);
+            smith.SetDestination(player.position);
             //smith.destination = target.transform.position;
             smith.isStopped = false;
+            
         }
         else
         {
             state = State.Idle;
+            
         }
-        float dist = Vector3.Distance(target.transform.position, transform.position);
-        if (dist <= findDistance)
-        {
-            state = State.Kill;
-            //EnemyAnimation.SetTrigger("MoveToKill");
-            smith.isStopped = true;
-        }
+        //float dist = Vector3.Distance(target.transform.position, transform.position);
+        //if (dist <= findDistance)
+        //{
+        //    state = State.KillToMove;
+        //    //EnemyAnimation.SetTrigger("");
+        //    smith.isStopped = true;
+        //}
+        //else
+        //{
+        //    //if (!isBooked)
+        //    //{
+        //    //    //1.5초 뒤에 이동 상태로 전환한다.
+        //    //    Invoke("SetMoveState", 1.5f);
+        //    //    isBooked = true;
+
+        //    //}
+        //}
 
 
     }
 
-    private void Kill()
-    {
-        currentTime += Time.deltaTime;
-
-        //만일 target이 공격 범위 이내라면
-        if (Vector3.Distance(target.transform.position, transform.position) < findDistance)
-        {
-            if (currentTime > delayTime)
-            {
-                currentTime = 0;
-                EnemyAnimation.SetTrigger("DelayToKill");
-            }
-            else
-            {
-                if (!isBooked)
-                {
-                    //1.5초 뒤에 이동 상태로 전환한다.
-                    Invoke("SetMoveState", 1.5f);
-                    isBooked = true;
-
-                }
-                //Invoke("SetMoveState", 1.5f);
-                state = State.KillToMove;
-            }
-        }
-
-    }
-
-    void SetMoveState()
-    {
-        //이동 상태로 전환
-        state = State.Move;
-
-        //이동 애니메이션 실행
-        //EnemyAnimation.SetTrigger("IdleToMove");
-
-        //현재 회전 상태를 startRot로 정함
-        startRotation = transform.rotation;
-        //회전 보간을 위한 rotRate도 0으로 초기화 한다.
-        rotRate = 0;
-
-        isBooked = false;
-
-    }
-
-    //float currentTime;
-    //float attackTime = 1;
-
-    //private void UpdateKill()
+    //private void KillToMove()
     //{
-    //    //currentTime += Time.deltaTime;
+    //    currentTime += Time.deltaTime;
 
-    //    //if (currentTime > attackTime)
-    //    //{
-    //    //    currentTime = 0;
-    //    //    //target.AddDamage();
-    //    //    float distance = Vector3.Distance(transform.position, target.transform.position);
-    //    //    if (distance > attackDistance)
-    //    //    {
-    //    //        state = State.Move;
-    //    //    }
-    //    //}
+    //    //만일 target이 공격 범위 이내라면
+    //    if (Vector3.Distance(target.transform.position, transform.position) < findDistance)
+    //    {
+    //        if (currentTime > delayTime)
+    //        {
+    //            currentTime = 0;
+    //            //EnemyAnimation.SetTrigger("DelayToKill");
+    //        }
+    //        //공격범위 밖이라면
+    //        else
+    //        {
+    //            if (!isBooked)
+    //            {
+    //                //1.5초 뒤에 이동 상태로 전환한다.
+    //                Invoke("SetMoveState", 1.5f);
+    //                isBooked = true;
+
+    //            }
+    //            //Invoke("SetMoveState", 1.5f);
+    //            state = State.KillToMove;
+    //        }
+    //    }
+
     //}
 
+    //float attackTime = 0;
+    //private void UpdateKill()
+    //{
+    //    currentTime += Time.deltaTime;
+
+    //    if (currentTime > attackTime)
+    //    {
+    //        currentTime = 0;
+    //        //target.AddDamage();
+    //        float distance = Vector3.Distance(transform.position, target.transform.position);
+    //        if (distance > attackDistance)
+    //        {
+    //            state = State.Move;
+    //        }
+    //    }
+    //}
 
 
     private void OnCollisionEnter(Collision collision)
@@ -261,7 +273,16 @@ public class EnemyFSM : MonoBehaviour
         if (collision.gameObject.name == "Player")
         {
             Destroy(collision.gameObject);
+            //state = State.Kill;
+            //EnemyAnimation.SetBool("isDie", true);
+            GameManager.gm.SetActiveOption(true);
+
         }
+    }
+
+    private void Kill()
+    {
+        
     }
 
     //private void OnTriggerEnter(Collider other)
@@ -272,11 +293,9 @@ public class EnemyFSM : MonoBehaviour
     //    }
     //}
 
-    public void addSpeed()
+    public void Die()
     {
-        speed = speed * 2;
-        //print("속도 증가");
-
+        //플레이어가 책을 5개 전부 먹으면 게임 죽음
+        
     }
-
 }

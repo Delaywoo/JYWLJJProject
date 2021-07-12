@@ -153,7 +153,13 @@ public class GameManager : MonoBehaviour
 
     }
 
+    public GameObject canvasUI;
+    public void SetActiveOption(bool toggle)
+    {
+        //UI창을 활성화
+        canvasUI.SetActive(toggle);
 
+    }
 
 
 
