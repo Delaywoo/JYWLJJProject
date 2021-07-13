@@ -514,7 +514,7 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
-      Hash: 2cdf303b81f5b6ce8472384f43f7ae60
+      Hash: 527853f0498e086a19445282420cdbe8
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameManager

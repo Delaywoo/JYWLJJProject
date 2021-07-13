@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager gm;
 
     public GameObject QuizUI;
+    public GameObject OptionUI;
 
 
 
@@ -43,7 +44,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         OpenQuizScreen(false);
-
+        OpenOption(false);
         
     }
 
@@ -51,6 +52,11 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         CountMyBook();
+
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            OpenOption(true);
+        }
     }
 
 
@@ -74,6 +80,13 @@ public class GameManager : MonoBehaviour
             Faces[i].SetActive(false);
         }
 
+
+    }
+
+    //optional panel
+    public void OpenOption(bool toggle)
+    {
+        OptionUI.SetActive(toggle);
 
     }
 

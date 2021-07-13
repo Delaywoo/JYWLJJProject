@@ -30,7 +30,7 @@ public class UI_manager : MonoBehaviour
     //옵션 패널이 닫히고 다시 게임을 재개하는 함수
     public void Resume()
     {
-
+        GameManager.gm.OpenOption(false);
     }
 
     //게임 다시 시작 함수
