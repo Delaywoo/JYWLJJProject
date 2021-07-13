@@ -10,19 +10,19 @@ public class PlayerMove : MonoBehaviour
 
     public float moveSpeed = 0;
     public float gravity = -9.81f; //중력 구현
-    float yVelocity; //y속도
+    //float yVelocity; //y속도
 
-    CharacterController cc;
+    //CharacterController cc;
 
     void Start()
     {
-        cc = GetComponent<CharacterController>(); //캐릭터 컨드롤러를 찾음으로써 벽 통과 못하게함
+        //cc = GetComponent<CharacterController>(); //캐릭터 컨드롤러를 찾음으로써 벽 통과 못하게함
     }
 
     // Update is called once per frame
     void Update()
     {
-        yVelocity += gravity * Time.deltaTime; //y속도를 중력에 더해 한 프레임마다 누적시킴으로써 위를 보며 이동할 때 올라가는 것을 막음
+        //yVelocity += gravity * Time.deltaTime; //y속도를 중력에 더해 한 프레임마다 누적시킴으로써 위를 보며 이동할 때 올라가는 것을 막음
         
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -35,10 +35,10 @@ public class PlayerMove : MonoBehaviour
         direction = Camera.main.transform.TransformDirection(direction);
 
         direction.Normalize();
-        direction.y = yVelocity; //y속도를 direction의 y에 대입
+        //direction.y = yVelocity; //y속도를 direction의 y에 대입
 
-        cc.Move(direction * moveSpeed * Time.deltaTime); //Move함수는 캐릭터 컨트롤러의 Move값을 불러와서 움직이기 전에 충돌 검사를 하고 충돌체가 있으면 통과하지 못하게함
-        //transform.position += direction * moveSpeed * Time.deltaTime;
+        //cc.Move(direction * moveSpeed * Time.deltaTime); //Move함수는 캐릭터 컨트롤러의 Move값을 불러와서 움직이기 전에 충돌 검사를 하고 충돌체가 있으면 통과하지 못하게함
+        transform.position += direction * moveSpeed * Time.deltaTime;
 
     }
 
