@@ -21,18 +21,38 @@ public class GetBook : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    //private void OnControllerColliderHit(ControllerColliderHit hit)
+    //{
+    //    if (hit.transform.name == "Player")
+    //    {
+    //        //퀴즈 UI창 뜨게 하는 함수 실행
+    //        GameManager.gm.OpenQuizScreen(true);
+
+    //    }
+    //}
+
+    private void OnTriggerEnter(Collider other)
     {
-        
-        if(collision.gameObject.name == "Player")
+        if(other.gameObject.name == "Player")
         {
             //퀴즈 UI창 뜨게 하는 함수 실행
             GameManager.gm.OpenQuizScreen(true);
-                        
         }
-                            
-
     }
+
+
+    //private void OnCollisionEnter(Collision collision)
+    //{
+
+    //    if(collision.gameObject.name == "Player")
+    //    {
+    //        //퀴즈 UI창 뜨게 하는 함수 실행
+    //        GameManager.gm.OpenQuizScreen(true);
+
+    //    }
+
+
+    //}
 
     private void OnCollisionStay(Collision collision)
     {
@@ -41,27 +61,47 @@ public class GetBook : MonoBehaviour
         //GameObject.FindWithTag("Enemy")
     }
 
-
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider other)
     {
-        if(collision.gameObject.name == "Player" )
+        if (other.gameObject.name == "Player")
         {
-            
-            if(IsQuizEnd())
+
+            if (IsQuizEnd())
             {
-                gameObject.transform.parent = collision.transform;
+                gameObject.transform.parent = other.transform;
                 gameObject.SetActive(false);
 
+
             }
-            
+
 
 
             GameManager.gm.OpenQuizScreen(false);
 
-            
+
         }
-          
     }
+
+    //private void OnCollisionExit(Collision collision)
+    //{
+    //    if(collision.gameObject.name == "Player" )
+    //    {
+            
+    //        if(IsQuizEnd())
+    //        {
+    //            gameObject.transform.parent = collision.transform;
+    //            gameObject.SetActive(false);
+
+    //        }
+            
+
+
+    //        GameManager.gm.OpenQuizScreen(false);
+
+            
+    //    }
+          
+    //}
 
     private bool IsQuizEnd()
     {
