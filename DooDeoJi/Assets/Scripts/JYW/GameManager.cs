@@ -22,6 +22,9 @@ public class GameManager : MonoBehaviour
     public GameObject[] YesOrNo = new GameObject[6];
     public GameObject[] Faces = new GameObject[2];
 
+    public Text bookcount;
+    public GameObject bookparents;
+
 
     private void Awake()
     {
@@ -40,13 +43,14 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         OpenQuizScreen(false);
+
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        CountMyBook();
     }
 
 
@@ -57,17 +61,17 @@ public class GameManager : MonoBehaviour
 
         number = 1;
 
-        GameManager.gm.gameText[0].text = "SOLVE MATH Q1:";
-        GameManager.gm.RandomQuiz();
+        gameText[0].text = "SOLVE MATH Q1:";
+        gm.RandomQuiz();
 
-        for (int i = 0; i < GameManager.gm.YesOrNo.Length; i++)
+        for (int i = 0; i < YesOrNo.Length; i++)
         {
-            GameManager.gm.YesOrNo[i].SetActive(false);
+            YesOrNo[i].SetActive(false);
         }
 
         for (int i = 0; i < 2; i++)
         {
-            GameManager.gm.Faces[i].SetActive(false);
+            Faces[i].SetActive(false);
         }
 
 
@@ -174,6 +178,12 @@ public class GameManager : MonoBehaviour
 
     }
 
+    void CountMyBook()
+    {
+        int countmybook = 5 - bookparents.transform.childCount;
+        bookcount.text = countmybook.ToString() + " / 5 ";
+
+    }
 
 
 

@@ -4,8 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+
+
 public class UI_manager : MonoBehaviour
-{ 
+{
+
+    
+    
     // 버튼 누르기 전 문항 정보
     void Start()
     {
@@ -13,6 +18,9 @@ public class UI_manager : MonoBehaviour
 
 
     }
+
+
+
 
     public void UpMathQuiz()
     {
