@@ -48,7 +48,7 @@ public class EnemyFSM : MonoBehaviour
         smith = GetComponent<NavMeshAgent>();
         smith.speed = 5.0f;
         smith.acceleration = 10.0f;
-        smith.stoppingDistance = findDistance;
+        smith.stoppingDistance = 0;
 
     }
 
@@ -272,6 +272,8 @@ public class EnemyFSM : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
+            Camera.main.gameObject.transform.parent = null;
+
             Destroy(collision.gameObject);
             //state = State.Kill;
             //EnemyAnimation.SetBool("isDie", true);
