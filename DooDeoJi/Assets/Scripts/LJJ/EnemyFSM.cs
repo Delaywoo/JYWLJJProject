@@ -11,7 +11,7 @@ public class EnemyFSM : MonoBehaviour
     float currentTime = 0;
     NavMeshAgent smith;
     float rotRate = 0;
-    bool isBooked = false;
+    //bool isBooked = false;
     Transform player;
 
     public Transform GetTargetTransform()
@@ -46,7 +46,7 @@ public class EnemyFSM : MonoBehaviour
 
         //NavmeshAgent컴포넌트를 가져옴
         smith = GetComponent<NavMeshAgent>();
-        smith.speed = 5.0f;
+        smith.speed = 1.0f;
         smith.acceleration = 10.0f;
         smith.stoppingDistance = 0;
 
@@ -130,7 +130,7 @@ public class EnemyFSM : MonoBehaviour
         //회전 보간을 위한 rotRate도 0으로 초기화 한다.
         rotRate = 0;
 
-        isBooked = false;
+        //isBooked = false;
 
     }
 
