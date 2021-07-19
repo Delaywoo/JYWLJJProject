@@ -18,22 +18,20 @@ public class OpenDoor : MonoBehaviour
         
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter(Collision collision)
     {
-        if(other.tag == "Player")
+        if (collision.gameObject.name == "Player")
         {
             animator.SetBool("isOpen", true);
         }
-
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnCollisionExit(Collision collision)
     {
-        if(other.tag == "Player")
+        if (collision.gameObject.name == "Player")
         {
             animator.SetBool("isOpen", false);
         }
     }
-
 
 }

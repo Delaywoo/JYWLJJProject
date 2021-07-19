@@ -148,7 +148,7 @@ public class EnemyFSM : MonoBehaviour
         //회전 보간을 위한 rotRate도 0으로 초기화 한다.
         rotRate = 0;
 
-        //isBooked = false;
+        isBooked = false;
 
     }
 
