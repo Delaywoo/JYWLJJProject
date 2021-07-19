@@ -11,7 +11,7 @@ public class EnemyFSM : MonoBehaviour
     float currentTime = 0;
     NavMeshAgent smith;
     float rotRate = 0;
-    //bool isBooked = false;
+    bool isBooked = false;
     Transform player;
 
     public Transform GetTargetTransform()
@@ -40,7 +40,7 @@ public class EnemyFSM : MonoBehaviour
 
         cc = transform.GetComponent<CharacterController>();
 
-        //EnemyAnimation = GetComponent<Animator>();
+        EnemyAnimation = GetComponentInChildren<Animator>();
 
         //EnemyAnimation.SetBool("isDie", false);
 
@@ -109,6 +109,19 @@ public class EnemyFSM : MonoBehaviour
                 SetMoveState();
 
             }
+            //공격범위 밖이라면
+            else
+            {
+                if (!isBooked)
+                {
+                    //5초 뒤에 이동 상태로 전환한다.
+                    Invoke("SetMoveState", 5.0f);
+                    isBooked = true;
+
+                }
+                //Invoke("SetMoveState", 1.5f);
+                //state = State.KillToMove;
+            }
         }
         else
         {
@@ -123,7 +136,7 @@ public class EnemyFSM : MonoBehaviour
         state = State.Move;
 
         //이동 애니메이션 실행
-        //EnemyAnimation.SetTrigger("IdleToMove");
+        EnemyAnimation.SetTrigger("IdleToMove");
 
         //현재 회전 상태를 startRot로 정함
         startRotation = transform.rotation;
@@ -193,7 +206,7 @@ public class EnemyFSM : MonoBehaviour
             smith.SetDestination(player.position);
             //smith.destination = target.transform.position;
             smith.isStopped = false;
-            
+
         }
         else
         {
@@ -226,7 +239,7 @@ public class EnemyFSM : MonoBehaviour
     //    currentTime += Time.deltaTime;
 
     //    //만일 target이 공격 범위 이내라면
-    //    if (Vector3.Distance(target.transform.position, transform.position) < findDistance)
+    //    if (Vector3.Distance(player.position, transform.position) < findDistance)
     //    {
     //        if (currentTime > delayTime)
     //        {

@@ -22,7 +22,7 @@ public class PlayerMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        yVelocity += gravity * Time.deltaTime; //y속도를 중력에 더해 한 프레임마다 누적시킴으로써 위를 보며 이동할 때 올라가는 것을 막음
+        yVelocity += gravity * Time.deltaTime; //y속도를 중력에 더해 한 프레임마다 누적시킴으로써 위를 보며 이동할 때 공중부양하는 것을 막음
         
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -33,6 +33,8 @@ public class PlayerMove : MonoBehaviour
         
         //카메라가 바라보는 방향을 앞방향으로 하고 싶다.
         direction = Camera.main.transform.TransformDirection(direction);
+
+        //quaternion.lookrotation(direction)
 
         direction.Normalize();
         direction.y = yVelocity; //y속도를 direction의 y에 대입
