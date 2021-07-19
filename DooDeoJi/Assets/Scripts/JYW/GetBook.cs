@@ -37,7 +37,10 @@ public class GetBook : MonoBehaviour
         {
             //퀴즈 UI창 뜨게 하는 함수 실행
             GameManager.gm.OpenQuizScreen(true);
+
+            
         }
+
     }
 
 
@@ -57,8 +60,8 @@ public class GetBook : MonoBehaviour
     private void OnCollisionStay(Collision collision)
     {
         //Enemy의 움직임 멈추기!!!!!!!
+        GameObject.FindWithTag("Enemy").GetComponent<EnemyFSM>().state = EnemyFSM.State.Stop;
 
-        //GameObject.FindWithTag("Enemy")
     }
 
     private void OnTriggerExit(Collider other)
@@ -77,6 +80,9 @@ public class GetBook : MonoBehaviour
 
 
             GameManager.gm.OpenQuizScreen(false);
+
+            //충돌 영역에서 빠져나갈 때, 퀴즈 UI를 끈 후 적이 다시 움직이도록 한다.
+            GameObject.FindWithTag("Enemy").GetComponent<EnemyFSM>().state = EnemyFSM.State.Move;
 
 
         }

@@ -80,8 +80,13 @@ public class GameManager : MonoBehaviour
             Faces[i].SetActive(false);
         }
 
+        
+
 
     }
+
+    
+
 
     //optional panel
     public void OpenOption(bool toggle)

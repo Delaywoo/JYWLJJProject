@@ -28,6 +28,7 @@ public class EnemyFSM : MonoBehaviour
         KillToMove,
         Kill,
         Die,
+        Stop
     }
 
     public State state;
@@ -70,6 +71,10 @@ public class EnemyFSM : MonoBehaviour
         else if (state == State.Die)
         {
             Die();
+        }
+        else if (state == State.Stop)
+        {
+            E_Stop();
         }
 
         //일정 시간 감소에 따른 Enemy상태 변화
@@ -313,4 +318,17 @@ public class EnemyFSM : MonoBehaviour
         //플레이어가 책을 5개 전부 먹으면 게임 죽음
         
     }
+
+    void E_Stop()
+    {
+        //멈춤 상태로 전환
+        state = State.Stop;
+
+        if(player != null)
+        {
+            smith.isStopped = true;
+        }
+
+    }
+
 }

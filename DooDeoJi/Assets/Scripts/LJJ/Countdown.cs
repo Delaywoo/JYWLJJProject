@@ -11,7 +11,13 @@ public class Countdown : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        countdownText.text = setTime.ToString();    
+        int minute_text;
+        int second_text;
+
+        minute_text = (int)setTime / 60;
+        second_text = (int)setTime % 60;
+
+        countdownText.text = minute_text.ToString() + "분 " + second_text.ToString() + "초";
     }
 
     // Update is called once per frame
@@ -26,6 +32,15 @@ public class Countdown : MonoBehaviour
             Time.timeScale = 0.0f;
         }
 
-        countdownText.text = Mathf.Round(setTime).ToString();
+        float text_time = Mathf.Round(setTime);
+
+        int uminute_text;
+        int usecond_text;
+
+        uminute_text = (int)setTime / 60;
+        usecond_text = (int)setTime % 60;
+
+        countdownText.text = uminute_text.ToString() + "분 " + usecond_text.ToString() + "초";
+
     }
 }
