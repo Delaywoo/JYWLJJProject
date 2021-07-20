@@ -26,6 +26,13 @@ public class GameManager : MonoBehaviour
     public Text bookcount;
     public GameObject bookparents;
 
+    public float LimitTime = 30.0f;
+    float RealTime;
+    public Text text_Timer;
+
+    public int correctAnswerNum = 0;
+
+    public int end = 0;
 
     private void Awake()
     {
@@ -57,13 +64,49 @@ public class GameManager : MonoBehaviour
         {
             OpenOption(true);
         }
+
+
+        TimeLimit();
+
     }
 
+    void TimeLimit()
+    {
+        if (QuizUI.activeSelf == true)
+        {
+            
+
+            if (RealTime > 0)
+            {
+                RealTime -= Time.deltaTime;
+                text_Timer.text = "Time Limit: " + Mathf.Ceil(RealTime).ToString() + "s";
+
+
+            }
+
+            //제한 시간 다되면
+            else
+            {
+                // 1. 퀴즈 ui창 비활성화
+                OpenQuizScreen(false);
+                // 2. 적 속도 1.2배
+                GameObject.FindWithTag("Enemy").GetComponent<EnemyFSM>().speed *= 1.2f;
+                // 3. 적 state = move로 바꾸기
+                GameObject.FindWithTag("Enemy").GetComponent<EnemyFSM>().state = EnemyFSM.State.Move;
+
+
+            }
+        }
+
+    }
 
     public void OpenQuizScreen(bool toggle)
     {
         //퀴즈 UI창을 활성화한다.
         QuizUI.SetActive(toggle);
+        end = 0;
+        
+        RealTime = LimitTime;
 
         number = 1;
 
@@ -80,7 +123,8 @@ public class GameManager : MonoBehaviour
             Faces[i].SetActive(false);
         }
 
-        
+
+
 
 
     }
@@ -124,6 +168,7 @@ public class GameManager : MonoBehaviour
 
         }
 
+
         
 
         
@@ -166,9 +211,14 @@ public class GameManager : MonoBehaviour
 
     void GradeQuiz()
     {
+
         string text = inputanswer.text;
+
+        
         if (text == answer.ToString())
         {
+            correctAnswerNum++;
+
             // 1-> 0, 2-> 2, 3->4 true
             YesOrNo[(number - 1) * 2].SetActive(true);
             Faces[0].SetActive(true);
@@ -202,6 +252,8 @@ public class GameManager : MonoBehaviour
         bookcount.text = countmybook.ToString() + " / 5 ";
 
     }
+
+    
 
 
 
