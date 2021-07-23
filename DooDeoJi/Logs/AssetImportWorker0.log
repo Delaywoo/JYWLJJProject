@@ -1,0 +1,2152 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'ko' Physical Memory: 8075 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/wjdwo/OneDrive/문서/GitHub/JYWLJJProject/DooDeoJi
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63395
+Successfully changed project path to: C:/Users/wjdwo/OneDrive/문서/GitHub/JYWLJJProject/DooDeoJi
+C:/Users/wjdwo/OneDrive/문서/GitHub/JYWLJJProject/DooDeoJi
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 82.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.12f1 (b3b2c6512326)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/wjdwo/OneDrive/문서/GitHub/JYWLJJProject/DooDeoJi/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M (ID=0x1341)
+    Vendor:   
+    VRAM:     2010 MB
+    Driver:   27.21.14.5751
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006584 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 76.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.081 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010983 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025972F2A010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972C7F520 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976F78020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972F2A010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976F78020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972C7F520 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259770F5A30 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972754020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977074020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597818A010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976F9E230 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.369 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.41 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1376 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.9 MB.
+System memory in use after: 70.0 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1811.
+Total: 2.782200 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.188300 ms MarkObjects: 2.126400 ms  DeleteObjects: 0.107000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/LJJ/OpenDoor.cs
+  artifactKey: Guid(6d4a69cbb6055c54d938d3e738b6a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LJJ/OpenDoor.cs using Guid(6d4a69cbb6055c54d938d3e738b6a086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651c5bf315c71e48c6165c1665adb026') in 0.096220 seconds 
+  Import took 0.109407 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.172962 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597A27A050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597839F570 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977074020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A27A050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976FCC020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977517010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259775EF020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977074020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972C6B9A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A9D6020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.789 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.6 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1813.
+Total: 2.479800 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.056800 ms MarkObjects: 2.139400 ms  DeleteObjects: 0.088200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 461.026512 seconds.
+  path: Assets/Animation/a door (2).controller
+  artifactKey: Guid(7dd452bceb244d34285472c726656ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/a door (2).controller using Guid(7dd452bceb244d34285472c726656ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9098350826a3abd23367b5e072ac355d') in 0.122255 seconds 
+  Import took 0.130717 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.156871 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000259730BA020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B0B3C90 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A63A010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259730BA020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B0B3C90 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B526560 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B8FADC0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B467390 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B508CF0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.338 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1815.
+Total: 2.578300 ms (FindLiveObjects: 0.213000 ms CreateObjectMapping: 0.111400 ms MarkObjects: 2.147500 ms  DeleteObjects: 0.104600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005697 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000259730BA020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5A4B70 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A1FCFA0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2DE170 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B66DB30 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5A4B70 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B61C1A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977074020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B56F6D0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A86A010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.375 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 3.366800 ms (FindLiveObjects: 0.703500 ms CreateObjectMapping: 0.104600 ms MarkObjects: 2.472300 ms  DeleteObjects: 0.084200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 320.337685 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Attack.FBX
+  artifactKey: Guid(e86ebdecfe8dfbb4383fe1722da5ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Attack.FBX using Guid(e86ebdecfe8dfbb4383fe1722da5ea6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fcc32aeb0776d66c1cf6ded46fd2c4d') in 1.204753 seconds 
+  Import took 1.216240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Character_Monster/Mesh/Monster.FBX
+  artifactKey: Guid(c230b9246bce7bf41bc8bd813b5e70e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Mesh/Monster.FBX using Guid(c230b9246bce7bf41bc8bd813b5e70e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de831d3d4a50439d81e5132d3b52c42a') in 1.356127 seconds 
+  Import took 1.367228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Walk_Mec.FBX
+  artifactKey: Guid(9fb8741c01a03464dafc2f716aee370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Walk_Mec.FBX using Guid(9fb8741c01a03464dafc2f716aee370a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f11086cc9972fe9fdac420d28c14a69a') in 0.500896 seconds 
+  Import took 0.534332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Run_Mec.FBX
+  artifactKey: Guid(f7a1b5cd01d7ad347846fc0f296f45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Run_Mec.FBX using Guid(f7a1b5cd01d7ad347846fc0f296f45d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8fb3700bf0f634c963e2ebdd09c2d4') in 0.331321 seconds 
+  Import took 0.342833 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Dead.FBX
+  artifactKey: Guid(7cd23062c89e7fe40b9529a9d84746fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Dead.FBX using Guid(7cd23062c89e7fe40b9529a9d84746fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ff1bd3b3bc6bd59ba456a6075575fe') in 0.359519 seconds 
+  Import took 0.369586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Get_Hit.FBX
+  artifactKey: Guid(fc3ce44acf46df04e85ad1e6180d9200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Get_Hit.FBX using Guid(fc3ce44acf46df04e85ad1e6180d9200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcdd196d8222ef43ea0590c402bbeb02') in 0.347135 seconds 
+  Import took 0.361359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Jump.FBX
+  artifactKey: Guid(89224e77c94c76f4b87fb4734f399556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Jump.FBX using Guid(89224e77c94c76f4b87fb4734f399556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859fbe0b3cc8cd21ea1c65ca990f3480') in 0.470910 seconds 
+  Import took 0.480052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Run.FBX
+  artifactKey: Guid(a7a696da0962fd94295fda6b2836b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Run.FBX using Guid(a7a696da0962fd94295fda6b2836b682) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d3a5f85ec94896a9f29d307506807') in 0.369234 seconds 
+  Import took 0.377120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/school/props/computer3.fbx
+  artifactKey: Guid(f31be39be55038b4dbc591468d4b9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer3.fbx using Guid(f31be39be55038b4dbc591468d4b9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735999011c272e861595393c9eff3d0c') in 0.511350 seconds 
+  Import took 0.524285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/school/props/sheet3.fbx
+  artifactKey: Guid(f9193b59ff4960f49b88d5a868e743f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet3.fbx using Guid(f9193b59ff4960f49b88d5a868e743f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31962948dcce609f5a1a9c49e109ef7c') in 0.303163 seconds 
+  Import took 0.310070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/school/props/locker_5.fbx
+  artifactKey: Guid(7b076f4bc078820418c69918ad1d12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_5.fbx using Guid(7b076f4bc078820418c69918ad1d12e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24762669fb24ecf34f08309d5f315c68') in 0.164959 seconds 
+  Import took 0.173066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/school/props/bus.fbx
+  artifactKey: Guid(7f54a7cb15b227045b46f8cf3ff5ea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/bus.fbx using Guid(7f54a7cb15b227045b46f8cf3ff5ea83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9226c5c58a5677b34f20f3f2628dcf39') in 0.314108 seconds 
+  Import took 0.322282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/school/props/sheet4.fbx
+  artifactKey: Guid(26cca21aff10b4545b16cc4b6315157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet4.fbx using Guid(26cca21aff10b4545b16cc4b6315157e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9022fcfc1a2fa2294f7345f2f2f7f63') in 0.247245 seconds 
+  Import took 0.257355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/school/props/computer.fbx
+  artifactKey: Guid(19da5e77d15e6b246ae6557f5f4c3cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer.fbx using Guid(19da5e77d15e6b246ae6557f5f4c3cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a030f15131fd1787f5092c3c4a793d') in 0.284312 seconds 
+  Import took 0.297911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/school/props/projector.fbx
+  artifactKey: Guid(72270d1b0c152ed449c796ec8a390366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/projector.fbx using Guid(72270d1b0c152ed449c796ec8a390366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4cfc1facd9eb95e08b8f55f0fab2e8') in 0.291046 seconds 
+  Import took 0.299618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/school/props/board1.fbx
+  artifactKey: Guid(2096cda62bf772342bc7a4aeda6e4a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board1.fbx using Guid(2096cda62bf772342bc7a4aeda6e4a67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163fb7cb2ad7bab08f106671b3e3426a') in 0.281332 seconds 
+  Import took 0.292241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.360666 seconds.
+  path: Assets/school/props/locker_4.fbx
+  artifactKey: Guid(40ec2e2d4a4457448aef97450f4f9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_4.fbx using Guid(40ec2e2d4a4457448aef97450f4f9113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25239198cf496d898d966624067e45b9') in 0.120974 seconds 
+  Import took 0.136347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001253 seconds.
+  path: Assets/school/props/locker_2.fbx
+  artifactKey: Guid(4961a98492915344fad8693ff35cc1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_2.fbx using Guid(4961a98492915344fad8693ff35cc1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2716a3a76debe38ceaf6a589b09434ee') in 0.399261 seconds 
+  Import took 0.412663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.156436 seconds.
+  path: Assets/school/props/locker_1.fbx
+  artifactKey: Guid(6c66e7ddb4e3bf94e8581dbdbd34d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_1.fbx using Guid(6c66e7ddb4e3bf94e8581dbdbd34d601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '565682673323f6cbd6247d158ba76b21') in 0.158554 seconds 
+  Import took 0.167819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/school/props/button.fbx
+  artifactKey: Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/button.fbx using Guid(f91d72df50fef7f489d2eeb99baf0c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01d8840e141a9d86b5ab5774397f567') in 0.288853 seconds 
+  Import took 0.298222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/school/props/computer2.fbx
+  artifactKey: Guid(fade7d8b155c9e347935a5505346523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer2.fbx using Guid(fade7d8b155c9e347935a5505346523d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db95c23d2ef3a2c4fea417a5c126b91e') in 0.287400 seconds 
+  Import took 0.294701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/school/props/board2_2.fbx
+  artifactKey: Guid(bd7e469a6d0e8c44e9dabdd48e4bfb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board2_2.fbx using Guid(bd7e469a6d0e8c44e9dabdd48e4bfb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb4a7e826f09c04420088eff136a322') in 0.292000 seconds 
+  Import took 0.299827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000849 seconds.
+  path: Assets/school/props/locker_3.fbx
+  artifactKey: Guid(2ef5cccbf9af996448903a637411876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker_3.fbx using Guid(2ef5cccbf9af996448903a637411876a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6b49b0a3d8711aaad25bc80a6854ca0') in 0.282236 seconds 
+  Import took 0.290451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/school/props/wall2.fbx
+  artifactKey: Guid(dd0187cdaabbf654d8df9b87b74089f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall2.fbx using Guid(dd0187cdaabbf654d8df9b87b74089f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c907452aaf50485c951ddf4540a7fdb') in 0.366694 seconds 
+  Import took 0.383483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/school/road/floor.fbx
+  artifactKey: Guid(f7413ee7b6daa064087f5749d6f1b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/road/floor.fbx using Guid(f7413ee7b6daa064087f5749d6f1b9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f67fa7f47e72c36469e6fc3a98b917') in 0.193847 seconds 
+  Import took 0.200544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/school/props/a door.fbx
+  artifactKey: Guid(a1b64279c34bd0a49abf18b790a099b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/a door.fbx using Guid(a1b64279c34bd0a49abf18b790a099b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c694893121898105a8ed7d109f6c9399') in 0.308090 seconds 
+  Import took 0.318375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/school/props/a door1.fbx
+  artifactKey: Guid(e7aacb82296e75c41acea0abba4c8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/a door1.fbx using Guid(e7aacb82296e75c41acea0abba4c8978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14db2a6825e897feea93533d5da1d68') in 0.294637 seconds 
+  Import took 0.305426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/school/props/sheet2.fbx
+  artifactKey: Guid(481b15e92ed6941478e39061d9935711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet2.fbx using Guid(481b15e92ed6941478e39061d9935711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30b4d9f89806767936f1df5ba5dc55a') in 0.303594 seconds 
+  Import took 0.314268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/school/props/board.fbx
+  artifactKey: Guid(5613243e699c34046bcf679855532f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board.fbx using Guid(5613243e699c34046bcf679855532f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711a231b739d150b5584bd8bc478a367') in 0.259028 seconds 
+  Import took 0.270713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/school/props/a laptop.fbx
+  artifactKey: Guid(6a3802d04cb8d4e4d8e354e4a4098cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/a laptop.fbx using Guid(6a3802d04cb8d4e4d8e354e4a4098cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b94ef8362dac5718d980c9216e9a83a') in 0.129675 seconds 
+  Import took 0.283368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/school/road/floor1.fbx
+  artifactKey: Guid(02ba308bed5cd924d888de16aa13d884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/road/floor1.fbx using Guid(02ba308bed5cd924d888de16aa13d884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47235157736751218047064bfe50b7be') in 0.251987 seconds 
+  Import took 0.272866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/school/props/table3.fbx
+  artifactKey: Guid(0699d22803476344d956abf42dc88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/table3.fbx using Guid(0699d22803476344d956abf42dc88970) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccb400f0510f6e8bb2c5e233669f9bba') in 0.174023 seconds 
+  Import took 0.185217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/school/props/chair1.fbx
+  artifactKey: Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/chair1.fbx using Guid(e3fd7e9d6b3f64648beef3391d3952d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a03780eb6a5ec36f6f7629ce41f91e3') in 0.265066 seconds 
+  Import took 0.280713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/school/props/wall4 (1).fbx
+  artifactKey: Guid(e2c12cc399276f34997617080b02d780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall4 (1).fbx using Guid(e2c12cc399276f34997617080b02d780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ee19a9078ccfc4300e8e947560e76e1') in 0.342784 seconds 
+  Import took 0.361527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/school/props/board2_1.fbx
+  artifactKey: Guid(45565251077e14d4180ee5c2bb5b896d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board2_1.fbx using Guid(45565251077e14d4180ee5c2bb5b896d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cf09cfbe6bc158ccbd0a998d1b8c78') in 0.387304 seconds 
+  Import took 0.401641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/school/props/sheet1.fbx
+  artifactKey: Guid(23b1d8473c4b7404ea0dd7c937deb666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet1.fbx using Guid(23b1d8473c4b7404ea0dd7c937deb666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a6f99dff83bdb6604d78750a3fc543d') in 0.277803 seconds 
+  Import took 0.285925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/school/props/sheet.fbx
+  artifactKey: Guid(e3b1441b553239a4681601783740f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/sheet.fbx using Guid(e3b1441b553239a4681601783740f186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9817021af5ff5199ef0988f71fe6617') in 0.280356 seconds 
+  Import took 0.287449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/school/props/table1.fbx
+  artifactKey: Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/table1.fbx using Guid(e7eb5a1adad305d49967b1f111709dbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88e3eb90113b4f7d4fa21c8c0c6e01e') in 0.363744 seconds 
+  Import took 0.387579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.161916 seconds.
+  path: Assets/school/props/jalousie.fbx
+  artifactKey: Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/jalousie.fbx using Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc888a7f59489e4bb2cb113aba35f223') in 0.468542 seconds 
+  Import took 0.507681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/school/props/wall001.fbx
+  artifactKey: Guid(674bca1160f50d546aaac5b261a08000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall001.fbx using Guid(674bca1160f50d546aaac5b261a08000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4072a0b124ef53ea632316539e01ea76') in 0.287392 seconds 
+  Import took 0.362594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/school/props/jalousie.fbx
+  artifactKey: Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/jalousie.fbx using Guid(f8efd7bda192d6d4c9936256eff57e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc888a7f59489e4bb2cb113aba35f223') in 0.257172 seconds 
+  Import took 0.279925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.008062 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Idle.FBX
+  artifactKey: Guid(0989fc1e20491764d9b7d6a60fe98ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Idle.FBX using Guid(0989fc1e20491764d9b7d6a60fe98ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1029c3e3cc4b7e624bbf4da32865922d') in 1.101976 seconds 
+  Import took 1.113803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/school/props/locker1.fbx
+  artifactKey: Guid(a009d4148ee08684d917c68693f75228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker1.fbx using Guid(a009d4148ee08684d917c68693f75228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd99a5533751adf189c82b2120236665') in 0.123795 seconds 
+  Import took 0.131584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/school/props/locker.fbx
+  artifactKey: Guid(a92e660226b52b745a9b7bc5e9794051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker.fbx using Guid(a92e660226b52b745a9b7bc5e9794051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ec3d3f5df487ccc08625c1d9f4800d') in 0.499967 seconds 
+  Import took 0.509937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/school/props/showcase.fbx
+  artifactKey: Guid(f368751ca30ac2647a4ec4ce8fed3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/showcase.fbx using Guid(f368751ca30ac2647a4ec4ce8fed3c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d2b1df52cba8c0f77231fcf5891108') in 0.301460 seconds 
+  Import took 0.314568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002313 seconds.
+  path: Assets/school/road/doroga.fbx
+  artifactKey: Guid(f8840c3f03e4a1d45b8c43d8e047bd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/road/doroga.fbx using Guid(f8840c3f03e4a1d45b8c43d8e047bd1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5932108e70a591decd492cbf2dd2ca') in 0.371932 seconds 
+  Import took 0.382650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/school/props/locker2.fbx
+  artifactKey: Guid(3116c0cc8ed12dc4c9fbd857167ae184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/locker2.fbx using Guid(3116c0cc8ed12dc4c9fbd857167ae184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9deac40492abcd224cf1619f67a607a9') in 0.368213 seconds 
+  Import took 0.378037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/school/road/doroga — krest.fbx
+  artifactKey: Guid(df64657f50132d544870c1de38b5b3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/road/doroga — krest.fbx using Guid(df64657f50132d544870c1de38b5b3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9054bbd064291cab1cf103bb0e3d2806') in 0.138370 seconds 
+  Import took 0.270195 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018410 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597AE45020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977517010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977074020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978D5C1A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597C106050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977517010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976ED84A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597813B470 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978574030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.909 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1863.
+Total: 15.826400 ms (FindLiveObjects: 0.287700 ms CreateObjectMapping: 0.089800 ms MarkObjects: 14.777000 ms  DeleteObjects: 0.668900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 462.774793 seconds.
+  path: Assets/Animation/DoorOpen.anim
+  artifactKey: Guid(352a147b3bc085a408dc840f74a4b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/DoorOpen.anim using Guid(352a147b3bc085a408dc840f74a4b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2cb8353144bd2caf5b40bdc853d64a') in 0.085431 seconds 
+  Import took 0.092892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066795 seconds.
+  path: Assets/Animation/DoorOpen.anim
+  artifactKey: Guid(352a147b3bc085a408dc840f74a4b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/DoorOpen.anim using Guid(352a147b3bc085a408dc840f74a4b1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2cb8353144bd2caf5b40bdc853d64a') in 0.184963 seconds 
+  Import took 0.202506 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011536 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025977A8C010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B419F00 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599D60EB40 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977A8C010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599C838080 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976EF84B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B526560 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B66DB30 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978590530 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.311 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1865.
+Total: 2.596400 ms (FindLiveObjects: 0.206000 ms CreateObjectMapping: 0.108200 ms MarkObjects: 2.207700 ms  DeleteObjects: 0.073000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000025977A8C010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599D60EB40 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977A8C010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599C838080 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B47F010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978554020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5490B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.082 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1867.
+Total: 2.561700 ms (FindLiveObjects: 0.187100 ms CreateObjectMapping: 0.057000 ms MarkObjects: 2.240900 ms  DeleteObjects: 0.075100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 879.245818 seconds.
+  path: Assets/school/props/wall4 (2).fbx
+  artifactKey: Guid(cc3095fd348d76b4f9cdcaabdaacdf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall4 (2).fbx using Guid(cc3095fd348d76b4f9cdcaabdaacdf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0003af5625749e7f0bf14573b07011') in 0.200096 seconds 
+  Import took 0.214422 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008756 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597A27A050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599FD64020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CBEFAC0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BB1A0C0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B280080 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B050010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.553 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1870.
+Total: 6.239600 ms (FindLiveObjects: 0.338200 ms CreateObjectMapping: 0.126900 ms MarkObjects: 5.630000 ms  DeleteObjects: 0.142400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006111 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597BE48040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B566710 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599D2DD050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CBEFAC0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BB1A0C0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B566710 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B280080 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B050010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A9D6020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.714 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.1 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1872.
+Total: 2.982300 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.667100 ms  DeleteObjects: 0.077800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 243.191655 seconds.
+  path: Assets/Character_Monster/Monster.controller
+  artifactKey: Guid(9d8d5958a2eb2cf4d87b6305a7c056d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Monster.controller using Guid(9d8d5958a2eb2cf4d87b6305a7c056d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97e872e799f0d1b232e214f2eb8d58b') in 0.113432 seconds 
+  Import took 0.165095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 63.084848 seconds.
+  path: Assets/Character_Monster/Animations/Monster@Walk.FBX
+  artifactKey: Guid(37320604b5af75c4ebe04a44c686961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Character_Monster/Animations/Monster@Walk.FBX using Guid(37320604b5af75c4ebe04a44c686961d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fcda859c76a03aebadf49555c07301') in 0.368413 seconds 
+  Import took 0.377128 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 50.104004 seconds.
+  path: Assets/Free Burrow Cute Series/FBX/Free Burrow.controller
+  artifactKey: Guid(a9ce43be9ec85b548bcc9825dd3d8748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Burrow Cute Series/FBX/Free Burrow.controller using Guid(a9ce43be9ec85b548bcc9825dd3d8748) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3eaef0154719e230d02107c57e09df') in 0.091934 seconds 
+  Import took 0.102033 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006931 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000259730D5620 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5CE2F0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599FCE0080 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259730D5620 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A0572030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5CE2F0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599D2AC920 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259781EF450 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599FF18050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.234 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1875.
+Total: 28.441200 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.085100 ms MarkObjects: 28.011900 ms  DeleteObjects: 0.073500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009497 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597C148710 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977810030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599FCE0080 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5656B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A0572030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977810030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CACC020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259781EF450 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599FF18050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 2.845000 ms (FindLiveObjects: 0.215300 ms CreateObjectMapping: 0.057800 ms MarkObjects: 2.497500 ms  DeleteObjects: 0.073100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013461 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CBEFAC0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC58020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BB3A0D0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BC72020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CBEFAC0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC58020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259781EF450 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A9D6020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.536 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1879.
+Total: 2.575200 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.058600 ms MarkObjects: 2.265100 ms  DeleteObjects: 0.074500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009082 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599CA48020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597827D460 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CA48020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC58020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025972599030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597767D020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B56D6C0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.809 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1881.
+Total: 3.090800 ms (FindLiveObjects: 0.511300 ms CreateObjectMapping: 0.169900 ms MarkObjects: 2.326900 ms  DeleteObjects: 0.081300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008798 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599CA48020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A05EC030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597827D460 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CA48020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BB1A0C0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A05EC030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978BBF030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC58020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5490B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A9D6020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.986 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1883.
+Total: 2.491400 ms (FindLiveObjects: 0.172000 ms CreateObjectMapping: 0.061100 ms MarkObjects: 2.174100 ms  DeleteObjects: 0.082900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 591.001222 seconds.
+  path: Assets/Prefabs/JYW/Book.prefab
+  artifactKey: Guid(9e76f5d54a335184b82dbe252b5eb66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/JYW/Book.prefab using Guid(9e76f5d54a335184b82dbe252b5eb66b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b15ae3cf7245e049abfbc5c1e67267') in 0.200575 seconds 
+  Import took 0.207664 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008956 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599CAEC030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976FF0040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CAEC030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597C22E100 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597858EFF0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025977547450 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597AE7F0A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B90ADE0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.860 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1887.
+Total: 5.507500 ms (FindLiveObjects: 0.308300 ms CreateObjectMapping: 0.098100 ms MarkObjects: 4.991400 ms  DeleteObjects: 0.107100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 151.964761 seconds.
+  path: Assets/school/Prefabs/props/wall4 (2).prefab
+  artifactKey: Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall4 (2).prefab using Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cbc662cc5e9ac032c364f8ee6af2c3') in 0.368002 seconds 
+  Import took 0.377385 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.864834 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599D1C5040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025976FF0040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599D1C5040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597C22E100 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5BA160 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A19D1050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597AE7F0A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B90ADE0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 10.182 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.2 MB.
+System memory in use after: 86.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1890.
+Total: 3.079600 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.083800 ms MarkObjects: 2.684500 ms  DeleteObjects: 0.069900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28.648559 seconds.
+  path: Assets/school/Prefabs/props/wall4.prefab
+  artifactKey: Guid(2d0d657c1182735489e24a5ce302b99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall4.prefab using Guid(2d0d657c1182735489e24a5ce302b99c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52d1e5a0a8e97e9830c32f5271850584') in 0.126217 seconds 
+  Import took 0.135297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/school/Prefabs/props/wall4 (2).prefab
+  artifactKey: Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/Prefabs/props/wall4 (2).prefab using Guid(4af663313fdc5d04889a6710948329c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df281e4f0e8024d80a8a75e83f5bf90') in 0.056629 seconds 
+  Import took 0.069938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.159727 seconds.
+  path: Assets/school/props/chair.fbx
+  artifactKey: Guid(d7345a77f785f4041aa505b0645df651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/chair.fbx using Guid(d7345a77f785f4041aa505b0645df651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f6c9ab434e459cf0536ca0484f76fa') in 0.533370 seconds 
+  Import took 0.565045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000532 seconds.
+  path: Assets/school/props/book12.fbx
+  artifactKey: Guid(d26fd69ae663eb24a85bb3506b3e3b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book12.fbx using Guid(d26fd69ae663eb24a85bb3506b3e3b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935af50c2f460916ca3c2a51da7a70b0') in 0.214366 seconds 
+  Import took 0.230550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001789 seconds.
+  path: Assets/school/props/computer1.fbx
+  artifactKey: Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/computer1.fbx using Guid(f0d27de52a7134a4d9d1aab733f51841) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5a16e86b7ec8382f0e0feb8ce0b99e') in 0.158628 seconds 
+  Import took 0.179900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/school/props/chair.fbx
+  artifactKey: Guid(d7345a77f785f4041aa505b0645df651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/chair.fbx using Guid(d7345a77f785f4041aa505b0645df651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f6c9ab434e459cf0536ca0484f76fa') in 0.129642 seconds 
+  Import took 0.154734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000508 seconds.
+  path: Assets/school/props/book2.fbx
+  artifactKey: Guid(98a3eef7f73edd846970e62f64af6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book2.fbx using Guid(98a3eef7f73edd846970e62f64af6a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a72f561a9c49725f2e04f6353e92b7f') in 0.203348 seconds 
+  Import took 0.225834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000481 seconds.
+  path: Assets/Free Burrow Cute Series/FBX/Burrow@Walk Forward In Place.FBX
+  artifactKey: Guid(5c14c99557b54074eb3b65351a34447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Burrow Cute Series/FBX/Burrow@Walk Forward In Place.FBX using Guid(5c14c99557b54074eb3b65351a34447c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '768a5d5e96d932e599b040ed2ac997c3') in 0.202160 seconds 
+  Import took 0.215520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/school/props/fire.fbx
+  artifactKey: Guid(400505d5a5ae5cc47bc16dc4307f2c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/fire.fbx using Guid(400505d5a5ae5cc47bc16dc4307f2c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c7f77e250a82f29d09d81f9bf333c1') in 0.167985 seconds 
+  Import took 0.179856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/school/props/table2.fbx
+  artifactKey: Guid(428d9da19f0db6d42a12afe656585894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/table2.fbx using Guid(428d9da19f0db6d42a12afe656585894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178417093339bf39a6a066c302f30fd7') in 0.091450 seconds 
+  Import took 0.100292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/school/props/wall4.fbx
+  artifactKey: Guid(65c4b63d3ab1edc4c98cc4216586cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall4.fbx using Guid(65c4b63d3ab1edc4c98cc4216586cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7511530f439891ad8453e41027ef92') in 0.070710 seconds 
+  Import took 0.082620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/school/props/book13.fbx
+  artifactKey: Guid(2ac56e37ab0b8c84d8aa8020fb2082b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book13.fbx using Guid(2ac56e37ab0b8c84d8aa8020fb2082b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c5e114225f7f20edb5a0551bd4d460') in 0.099124 seconds 
+  Import took 0.107946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/school/props/book10.fbx
+  artifactKey: Guid(6daefe72622a81549b8b756cb5f167cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book10.fbx using Guid(6daefe72622a81549b8b756cb5f167cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec82d02e12e4f42efa957ea6f6dd8ced') in 0.124691 seconds 
+  Import took 0.154835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/school/props/book11.fbx
+  artifactKey: Guid(469050c7eb8ed64428b8fb7604b109fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book11.fbx using Guid(469050c7eb8ed64428b8fb7604b109fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0969a4f1628f8af3c51d023b0d549933') in 0.094243 seconds 
+  Import took 0.101817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Free Burrow Cute Series/FBX/Burrow@Walk Forward W Root.FBX
+  artifactKey: Guid(bb02d91230edcdf46a4bc52c43a1a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Burrow Cute Series/FBX/Burrow@Walk Forward W Root.FBX using Guid(bb02d91230edcdf46a4bc52c43a1a81a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c662015ca1046b3e8428c2af04fb9ef9') in 0.126704 seconds 
+  Import took 0.137780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/school/props/book5.fbx
+  artifactKey: Guid(20a2100985022e94da9960c7ad02d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book5.fbx using Guid(20a2100985022e94da9960c7ad02d896) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06a293b698b0ea35e223ab6e0937c8bd') in 0.102276 seconds 
+  Import took 0.119890 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/school/props/book1.fbx
+  artifactKey: Guid(2ba609b3cfa3a39409cd47125c0b8f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book1.fbx using Guid(2ba609b3cfa3a39409cd47125c0b8f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9a09518f4fb63296bc847e4d85db37') in 0.116226 seconds 
+  Import took 0.124805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/school/props/tray.fbx
+  artifactKey: Guid(cc76c0b780396284a8d4e9fe8d4e7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/tray.fbx using Guid(cc76c0b780396284a8d4e9fe8d4e7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71b4dcf65e763aed3460a6664a452491') in 0.097560 seconds 
+  Import took 0.107019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/school/props/book3.fbx
+  artifactKey: Guid(2d9b54e7ef3d1a94eb9be4f4dd931319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book3.fbx using Guid(2d9b54e7ef3d1a94eb9be4f4dd931319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40c6e3b26e6bff2119102575a9c4ca2e') in 0.111363 seconds 
+  Import took 0.125334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/school/props/book8.fbx
+  artifactKey: Guid(c84426d852eade14f99559ca019e22ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book8.fbx using Guid(c84426d852eade14f99559ca019e22ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be27062f8d50e3718439b4907676fe36') in 0.091764 seconds 
+  Import took 0.100016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/school/props/book16.fbx
+  artifactKey: Guid(804dc1b5bcbda42449135bc1c93de072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book16.fbx using Guid(804dc1b5bcbda42449135bc1c93de072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f886363ce0437c1faf68c131cb304e82') in 0.123152 seconds 
+  Import took 0.135631 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/school/props/book7.fbx
+  artifactKey: Guid(c33f36ac04fd4ef4eb1421d50ecb1d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book7.fbx using Guid(c33f36ac04fd4ef4eb1421d50ecb1d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71ad26b1a8f2a00b221cfb722aa370c8') in 0.082272 seconds 
+  Import took 0.089638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/school/props/board2.fbx
+  artifactKey: Guid(566a42721c548c54cb9bc534f063aab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/board2.fbx using Guid(566a42721c548c54cb9bc534f063aab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dce5253d4b9b1dfd80b487707de6abb') in 0.080121 seconds 
+  Import took 0.088404 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Free Burrow Cute Series/FBX/Burrow.FBX
+  artifactKey: Guid(38f124c2f2ea5b0459fe8b08e88f7157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free Burrow Cute Series/FBX/Burrow.FBX using Guid(38f124c2f2ea5b0459fe8b08e88f7157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e253ee2256d0caf9bc1ff93fdb780f84') in 0.129122 seconds 
+  Import took 0.139304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/school/props/wall.fbx
+  artifactKey: Guid(20fa30becf879ae4fbd158795edc156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/wall.fbx using Guid(20fa30becf879ae4fbd158795edc156d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c961cbc91289b37b383dd74f35799fdd') in 0.081114 seconds 
+  Import took 0.088714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/school/props/book6.fbx
+  artifactKey: Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book6.fbx using Guid(9ba47c7a82616534bbe4f5bc55bfee77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36c26ff0c525658f4593e67ec689881') in 0.099324 seconds 
+  Import took 0.111395 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/school/props/book9.fbx
+  artifactKey: Guid(6955ffbde79fdc946ba53b35794d8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book9.fbx using Guid(6955ffbde79fdc946ba53b35794d8eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfd550690278a5829fa24b108a43b11') in 0.093737 seconds 
+  Import took 0.107129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/school/props/rack1.fbx
+  artifactKey: Guid(3d58d5cb75277704fbee090d5dc98394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/rack1.fbx using Guid(3d58d5cb75277704fbee090d5dc98394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0941aa89789dcbf6083b4ad96d8d9dd1') in 0.830972 seconds 
+  Import took 0.842522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/school/props/book.fbx
+  artifactKey: Guid(fe29f3a55c29a794a8d6a3d12b9aca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book.fbx using Guid(fe29f3a55c29a794a8d6a3d12b9aca96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50271403e426be5f933f9f7bae47a5cb') in 0.180511 seconds 
+  Import took 0.191477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/school/props/speaker.fbx
+  artifactKey: Guid(2e93ee0f4a411944ca5d229dc4b228e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/speaker.fbx using Guid(2e93ee0f4a411944ca5d229dc4b228e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '730f579f5b04f4f0de0923432df9164a') in 0.102583 seconds 
+  Import took 0.111522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/school/props/book4.fbx
+  artifactKey: Guid(4578924f6ad96474fa87f670025340b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book4.fbx using Guid(4578924f6ad96474fa87f670025340b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47328fce497f6d51283070490e43681a') in 0.109641 seconds 
+  Import took 0.118741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/school/props/rack.fbx
+  artifactKey: Guid(ca9bd9cdb3fbe8c42bfa1472eb2058fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/rack.fbx using Guid(ca9bd9cdb3fbe8c42bfa1472eb2058fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a169f0465c33c88b63b7a3a13a136064') in 0.081904 seconds 
+  Import took 0.088838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/school/props/book14.fbx
+  artifactKey: Guid(07f0850d4174989458ab5186394dec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book14.fbx using Guid(07f0850d4174989458ab5186394dec12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89e1941e3da2da0a2c83395cddfff73') in 0.126978 seconds 
+  Import took 0.139114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/school/props/book15.fbx
+  artifactKey: Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/book15.fbx using Guid(684a936c3957cd24f9bdc028cf0fff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cba4f861a5b73e0a689dd0945d78e15') in 0.096882 seconds 
+  Import took 0.104646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/school/props/fire1.fbx
+  artifactKey: Guid(9039d479f37a33c4a81362d04791c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/school/props/fire1.fbx using Guid(9039d479f37a33c4a81362d04791c6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea801dc4f4847bdaa6e1c20e63cc314e') in 0.123707 seconds 
+  Import took 0.134938 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005621 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599C732010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599C732010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5BA160 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1C4A030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597AE7F0A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BC72020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1893.
+Total: 3.075700 ms (FindLiveObjects: 0.459800 ms CreateObjectMapping: 0.190400 ms MarkObjects: 2.338700 ms  DeleteObjects: 0.085200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005265 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599FF00040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978D30140 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CBFFAE0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000025978D30140 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5BA160 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1C4A030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B3B4270 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.482 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 2.363800 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.058600 ms MarkObjects: 2.023400 ms  DeleteObjects: 0.079100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1016.976691 seconds.
+  path: Assets/Animation/a door (2).controller
+  artifactKey: Guid(7dd452bceb244d34285472c726656ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/a door (2).controller using Guid(7dd452bceb244d34285472c726656ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3feb68b5408f71e1cef0e0772412ec') in 0.065799 seconds 
+  Import took 0.075789 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007697 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000259A1E6C060 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1C6A040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B99FB70 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1C6A040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2C3A90 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A2032010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B3B4270 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.854 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1897.
+Total: 2.554300 ms (FindLiveObjects: 0.247700 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.130900 ms  DeleteObjects: 0.077700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006332 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597BB5C110 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1C6A040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B99FB70 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1C6A040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2C3A90 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A2032010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B3B4270 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.452 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 2.577700 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.059900 ms MarkObjects: 2.259400 ms  DeleteObjects: 0.083900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006595 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000259A1191020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A0898030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A1191020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2C3A90 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CE04A30 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597ACBA030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BC72020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.769 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1901.
+Total: 2.491500 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.083300 ms MarkObjects: 2.129800 ms  DeleteObjects: 0.084600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006518 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000259A14E3040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597827D460 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A14E3040 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259780C5010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2C3A90 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597A5500B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597ACBA030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597BC72020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.006 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.7 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 4.151900 ms (FindLiveObjects: 0.272000 ms CreateObjectMapping: 0.086400 ms MarkObjects: 3.604000 ms  DeleteObjects: 0.187100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2140.185738 seconds.
+  path: Assets/Animation/a door1 (3).controller
+  artifactKey: Guid(0ed82ceb50ffa0f408800ebdf1ff7839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/a door1 (3).controller using Guid(0ed82ceb50ffa0f408800ebdf1ff7839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fef81671c5fe5f2a03000dac3d9fbe1') in 0.159679 seconds 
+  Import took 0.173727 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011069 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002597B4A7A50 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A0C70060 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC07AF0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A19D1050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597ACBA030 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.559 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1905.
+Total: 2.937200 ms (FindLiveObjects: 0.172900 ms CreateObjectMapping: 0.063100 ms MarkObjects: 2.622200 ms  DeleteObjects: 0.077700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1120.974563 seconds.
+  path: Assets/Scripts/LJJ/CursorSetting.cs
+  artifactKey: Guid(fce66bbb5e8017b49bb60953c286fc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LJJ/CursorSetting.cs using Guid(fce66bbb5e8017b49bb60953c286fc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f50fa2152f90ae539dd2cfe26d07fb') in 0.017705 seconds 
+  Import took 0.024701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010430 seconds.
+  path: Assets/Scripts/LJJ/CursorSetting.cs
+  artifactKey: Guid(fce66bbb5e8017b49bb60953c286fc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/LJJ/CursorSetting.cs using Guid(fce66bbb5e8017b49bb60953c286fc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f50fa2152f90ae539dd2cfe26d07fb') in 0.010346 seconds 
+  Import took 0.027459 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006134 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599FD100B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A0C70060 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC07AF0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A19D1050 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B3B4270 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.596 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1907.
+Total: 2.420700 ms (FindLiveObjects: 0.173000 ms CreateObjectMapping: 0.057400 ms MarkObjects: 2.086400 ms  DeleteObjects: 0.102200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009340 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000002599FD100B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CDF4A20 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599FD100B0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B5FC190 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2900A0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259773C0010 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002599CC07AF0 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000259A0562020 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B3B4270 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000002597B2CC130 doesn't match image C:\Users\wjdwo\OneDrive\문서\GitHub\JYWLJJProject\DooDeoJi\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1358 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1909.
+Total: 2.844600 ms (FindLiveObjects: 0.219400 ms CreateObjectMapping: 0.112900 ms MarkObjects: 2.430000 ms  DeleteObjects: 0.080800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

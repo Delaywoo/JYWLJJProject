@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveAnimation : MonoBehaviour
 {
-    Animator Anim;
+    public Animator Anim;
 
     // Start is called before the first frame update
     void Start()

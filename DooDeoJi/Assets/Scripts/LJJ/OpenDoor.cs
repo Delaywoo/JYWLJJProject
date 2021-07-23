@@ -9,7 +9,7 @@ public class OpenDoor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        animator = GetComponent<Animator>();
+        animator = transform.GetChild(0).GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -18,7 +18,7 @@ public class OpenDoor : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider collision)
     {
         if (collision.gameObject.name == "Player")
         {
@@ -26,7 +26,7 @@ public class OpenDoor : MonoBehaviour
         }
     }
 
-    private void OnCollisionExit(Collision collision)
+    private void OnTriggerExit(Collider collision)
     {
         if (collision.gameObject.name == "Player")
         {
